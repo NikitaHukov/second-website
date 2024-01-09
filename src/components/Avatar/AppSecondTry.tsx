@@ -254,6 +254,6 @@ export const App = () => (
         </div>
       </div>
     </div>
-    <div>Testing Github. Checking branching here</div>
+    <div>Testing Github. Checking branching here. Checking again here</div>
   </div>
 )
