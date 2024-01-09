@@ -1,7 +1,3 @@
-.item {
-  background-color: red;
-}
-
-#item {
-  background-color: green;
-}
+/* body {
+  @apply bg-slate-900;
+} */

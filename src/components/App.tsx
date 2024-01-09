@@ -1,29 +1,23 @@
+import { Logo } from './Logo'
+
 function App() {
   return (
-    <div>
-      <Header />
-      <Main />
+    <div className="bg-slate-900 min-w-screen min-h-screen text-white overflow-hidden">
+      <div
+        id="header"
+        className="grid grid-flow-col justify-between px-8 h-20 items-center"
+      >
+        <div>
+          <Logo />
+        </div>
+        <div className="flex gap-6 items-center">
+          <div>Docs</div>
+          <div>Components</div>
+          <div>Blog</div>
+          <div>Showcase</div>
+        </div>
+      </div>
     </div>
   )
 }
-
-const Header = () => (
-  <header className=" grid grid-flow-col items-center h-20 tablet:bg-pink-500 laptop:bg-blue-500 desktop:bg-green-500 justify-between px-5">
-    <div>KCHK Krakow</div>
-    <div className="bg-red-500 h-max w-max p-4 rounded-full">
-      <div>Sign up</div>
-    </div>
-  </header>
-)
-
-const Main = () => (
-  <main>
-    <div>Image</div>
-    <div>
-      <div>KCHK Krakow</div>
-      <div className="item"> Strona Kosciola Chrystus Krolem...</div>
-    </div>
-  </main>
-)
-
 export default App
