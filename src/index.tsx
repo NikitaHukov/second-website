@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import 'tailwindcss/tailwind.css'
-import App from 'components/Avatar/TanStackTwo'
+import { App } from 'components/Avatar/AppSecondTry'
 import 'assets/global.css'
 
 const container = document.getElementById('root') as HTMLDivElement
